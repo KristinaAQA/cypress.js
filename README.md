@@ -10,26 +10,16 @@
 ## Детали реализации
 
 1. baseUrl вынесен в переменные конфига
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/baseUrl.png)
-
+![image]()
 2. Применение хуков beforeEach и afterEach
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/hooks.png)
+![image]()
 
 3. Переменные данные для авторизации вынесены в отдельный файл
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png)
+![image]()
 
 4. Каждая страница описана в формате объекта с локаторами
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/locators.png)
+![image]()
 
-## Локальный запуск тестов (из терминала)
-1. Скачать проект
-2. Перейти в терминале в директорию проекта
-2. Выполнить команду:
-```
-npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
-```
-Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_cli.png)
 
 
 ## Локальный запуск через Cypress UI
@@ -42,7 +32,7 @@ npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 7. Выбрать спеку lesson_locators
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_UI.png)
+![image]()
 
 ## Тест-кейсы, которые автоматизировали
 * Авторизация с верным паролем и верным логином
