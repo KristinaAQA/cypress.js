@@ -10,17 +10,15 @@
 ## Детали реализации
 
 1. baseUrl вынесен в переменные конфига
-![image]()
+![image](https://raw.githubusercontent.com/KristinaAQA/cypress.js/refs/heads/main/baseUrl.png)
 2. Применение хуков beforeEach и afterEach
-![image]()
+![image](https://raw.githubusercontent.com/KristinaAQA/cypress.js/refs/heads/main/beforeEach%20%20%D0%B8%20%20afterEach.png)
 
 3. Переменные данные для авторизации вынесены в отдельный файл
-![image]()
+![image](https://raw.githubusercontent.com/KristinaAQA/cypress.js/refs/heads/main/user_data.png)
 
 4. Каждая страница описана в формате объекта с локаторами
-![image]()
-
-
+![image](https://raw.githubusercontent.com/KristinaAQA/cypress.js/refs/heads/main/locators.png)
 
 ## Локальный запуск через Cypress UI
 1. Скачать проект и открыть в терминале.
@@ -32,7 +30,7 @@
 7. Выбрать спеку lesson_locators
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image]()
+![image](https://raw.githubusercontent.com/KristinaAQA/cypress.js/refs/heads/main/cypress_UI.png)
 
 ## Тест-кейсы, которые автоматизировали
 * Авторизация с верным паролем и верным логином
